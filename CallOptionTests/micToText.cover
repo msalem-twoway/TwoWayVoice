@@ -1,0 +1,37 @@
+    1: import speech_recognition as sr
+       # import threading
+       
+       # from playAudio import playAudio
+       
+    1: def micToText(index,flag):
+               # print("in micToText")
+    2:         r = sr.Recognizer()
+    2:         r.pause_threshold=2
+    2:         timeout=False
+    2:         mic = sr.Microphone(device_index=index)
+    2:         if flag:
+    1:                 return
+               # panel_audio_thread=threading.Thread(target=playAudio, args=(4,'..\AudioFiles\harvard1_5sec.wav'))
+               # # panel_audio_thread.setDaemon(True)
+               # panel_audio_thread.start()
+       
+               # print("initialization done. Index is " + str(index))
+    1:         with mic as source:
+    1:             print("Speak into the CS mic:")
+    1:             audio = r.adjust_for_ambient_noise(source,duration=0.2)
+    1:             try:
+    1:                 audio = r.listen(source,timeout=5)
+                   except sr.WaitTimeoutError:
+                       timeout=True;
+    1:         if not timeout:
+    1:                 try:
+    1:                         recog = r.recognize_wit(audio, key = "6Y4KLO4YTWDQSYQXGONPHAVB3IRSWFRN")
+    1:                         print("You said: " + recog)
+                       except sr.UnknownValueError:
+                           print("could not understand audio")
+                       except sr.RequestError as e:
+                           print("Could not request results ; {0}".format(e))
+                       # panel_audio_thread.join()
+    1:                 return recog
+               else:
+                       return ""

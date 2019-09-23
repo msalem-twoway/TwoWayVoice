@@ -1,0 +1,38 @@
+       # This script test the functionality when a Central Station(CS) has pressed the '3' button on their phone
+       # Expected behavior: The CS can hear the Panel but the panel cannot hear the CS 
+       #
+       # Test steps:
+       # 1. CS phone verifies that the correct statement was heard
+       # 2. Panel mic verifies that nothing was heard 
+    1: import speech_recognition as sr
+    1: import threading
+    1: import time
+       
+    1: from micToText import micToText
+    1: from playAudio import playAudio
+       
+    1: def keyThree(cs_mic,pnl_mic,cs_speaker,pnl_speaker):
+    1:         r = sr.Recognizer()
+    1:         harvard1="birch canoe slid on the smooth planks glue the sheet to the dark blue background"
+       
+    1:         micToText(2,True)
+       
+               #Can the CS hear the panel?
+    1:         panel_audio_thread=threading.Thread(target=playAudio, args=(pnl_speaker,'..\AudioFiles\harvard1_5sec.wav'))
+    1:         panel_audio_thread.start()
+    1:         text=micToText(cs_mic,False)
+    1:         while panel_audio_thread.isAlive():
+                       time.sleep(0.1)
+    1:         if(text==harvard1):
+                       print("Pass! Call was understood")
+       
+               # #Can the panel hear the CS?
+               # cs_audio_thread=threading.Thread(target=playAudio, args=(cs_speaker,'..\AudioFiles\harvard1_5sec.wav'))
+               # cs_audio_thread.start()
+               # text=micToText(pnl_mic)
+               # while cs_audio_thread.isAlive():
+               #       time.sleep(0.1)
+               # if(text==""):
+               #       print("Pass! Nothing was detected")
+               # print("bottom")
+    1:         return

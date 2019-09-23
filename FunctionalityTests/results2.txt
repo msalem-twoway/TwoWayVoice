@@ -1,0 +1,180 @@
+12/15 Passed for string - oak is strong and also gives shade 
+ Failed cases: 
+could not understand audio
+could not understand audio
+could not understand audio
+12/15 Passed for string - a cramp is no small danger on a swim 
+ Failed cases: 
+small Danger on a swim
+cramp is no small Danger on a swim
+cramp is no small Danger on a swim
+14/15 Passed for string - fairy tales should be fun to write 
+ Failed cases: 
+could not understand audio
+15/15 Passed for string - march the soldiers past the next hill 
+ Failed cases: 
+
+13/15 Passed for string - sickness kept him home the third week 
+ Failed cases: 
+home the third week
+kept him home the third week
+14/15 Passed for string - cut the pie into large parts 
+ Failed cases: 
+cut the eye into large parts
+14/15 Passed for string - cats and dogs each hate the other 
+ Failed cases: 
+dogs each hate the other
+15/15 Passed for string - open the crate but don't break the glass 
+ Failed cases: 
+
+12/15 Passed for string - act on these orders with great speed 
+ Failed cases: 
+on these orders with great speed
+on these orders with great speed
+on these orders with great speed
+14/15 Passed for string - leaves turn brown and yellow in the fall 
+ Failed cases: 
+brown and yellow in the fall
+0/15 Passed for string - feel the heat of the weak dying flame 
+ Failed cases: 
+feel the heat of the week dying Flame
+feel the heat of the week dying Flame
+feel the heat of the week dying Flame
+feel the heat of the week dying Flame
+Feel the beat of the week dying Flame
+feel the heat of the week dying Flame
+feel the heat of the week dying Flame
+feel the heat of the week dying Flame
+feel the heat of the week dying Flame
+feel the heat of the week dying Flame
+feel the heat of the week dying Flame
+feel the heat of the week dying Flame
+feel the heat of the week dying Flame
+feel the heat of the week dying Flame
+feel the heat of the week dying Flame
+15/15 Passed for string - bring your problems to the wise chief 
+ Failed cases: 
+
+0/15 Passed for string - pure bred poodles have curls 
+ Failed cases: 
+purebred Poodles have curls
+purebred Poodles have curls
+purebred Poodles have curls
+purebred Poodles have curls
+purebred Poodles have curls
+purebred Poodles have curls
+purebred Poodles have curls
+purebred Poodles have curls
+purebred Poodles have curls
+purebred Poodles have curls
+purebred Poodles have curls
+purebred Poodles have curls
+purebred Poodles have curls
+purebred Poodles have curls
+purebred Poodles have curls
+7/15 Passed for string - wood is best for making toys and blocks 
+ Failed cases: 
+what is best for making toys and blocks
+what is best for making toys and blocks
+what is best for making toys and blocks
+what is best for making toys and blocks
+what is best for making toys and blocks
+what is best for making toys and blocks
+what is best for making toys and blocks
+what is best for making toys and blocks
+15/15 Passed for string - sunday is the best part of the week 
+ Failed cases: 
+
+15/15 Passed for string - bring your best compass to the third class 
+ Failed cases: 
+
+2/15 Passed for string - after the dance they went straight home 
+ Failed cases: 
+the dance they went straight home
+dance they went straight home
+the dance they went straight home
+the dance they went straight home
+the dance they went straight home
+the dance they went straight home
+dance they went straight home
+the dance they went straight home
+the dance they went straight home
+the dance they went straight home
+dance they went straight home
+the dance they went straight home
+the dance they went straight home
+10/15 Passed for string - jazz and swing fans like fast music 
+ Failed cases: 
+swing bands like fast music
+and swing bands like fast music
+and swing bands like fast music
+Jazz and swing bands like fast music
+and swing bands like fast music
+15/15 Passed for string - ducks fly north but lack a compass 
+ Failed cases: 
+
+14/15 Passed for string - find the twin who stole the pearl necklace 
+ Failed cases: 
+find the twin who
+14/15 Passed for string - watch the log float in the wide river 
+ Failed cases: 
+the log float in the wide river
+15/15 Passed for string - screw the round cap on as tight as needed 
+ Failed cases: 
+
+0/15 Passed for string - glass will clink when struck by metal 
+ Failed cases: 
+glass will Clank when struck by metal
+glass will Clank when struck by metal
+glass will Clank when struck by metal
+glass will Clank when struck by metal
+Clank when struck by metal
+glass will Clank when struck by metal
+glass will Clank when struck by metal
+glass will Clank when struck by metal
+glass will Clank when struck by metal
+glass will Clank when struck by metal
+glass will Clank when struck by metal
+glass will Clank when struck by metal
+glass will Clank when struck by metal
+glass will Clank when struck by metal
+glass will Clank when struck by metal
+12/15 Passed for string - pages bound in cloth make a book 
+ Failed cases: 
+Bound in cloth make a book
+Bound in cloth make a book
+Bound in cloth make a book
+1/15 Passed for string - next tuesday we must vote 
+ Failed cases: 
+Tuesday we must vote
+Tuesday we must vote
+Tuesday we must vote
+Tuesday we must vote
+Tuesday we must vote
+Tuesday we must vote
+Tuesday we must vote
+Tuesday we must vote
+Tuesday we must vote
+Tuesday we must vote
+Tuesday we must vote
+Tuesday we must vote
+Tuesday we must vote
+Tuesday we must vote
+12/15 Passed for string - soap can wash most dirt away 
+ Failed cases: 
+soap can
+so can wash most Dirt away
+soap can
+15/15 Passed for string - grape juice and water mix well 
+ Failed cases: 
+
+15/15 Passed for string - breakfast buns are fine with a hot drink 
+ Failed cases: 
+
+10/15 Passed for string - oats are a food eaten by horse and man 
+ Failed cases: 
+oats are a food eaten by horse and Mane
+oats are a food eaten by horse and Mane
+oats are a food eaten by horse and Mane
+oats are a food eaten by horse and Mane
+oats are a food eaten by horse and Mane

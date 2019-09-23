@@ -3,6 +3,7 @@
 import speech_recognition as sr
 import threading
 import time
+import sys
 
 from micToText import micToText
 from playAudio import playAudio
@@ -23,7 +24,7 @@ r = sr.Recognizer()
 
 micToText(2,True)
 
-audio_thread=threading.Thread(target=playAudio, args=(2,'/home/pi/Documents/TwoWayVoice/AudioFiles/h18_s6.wav'))
+audio_thread=threading.Thread(target=playAudio, args=(2,sys.argv[1]))
 audio_thread.start()
 micToText(2,False)
 while audio_thread.isAlive():

@@ -11,16 +11,16 @@ from playAudio import playAudio
 r = sr.Recognizer()
 
 #Selecting Mics
-# mic_list = sr.Microphone.list_microphone_names()
-# print('\n'.join('{}: {}'.format(*k) for k in enumerate(mic_list)))
-# print("Please select the number of the microphone you would like to use for the CS:")
-# cs_mic=int(input())
-# print("Please select the number of the microphone you would like to use for the Panel:")
-# pnl_mic=int(input())
-# print("Please select the number of the speaker you would like to use for the CS:")
-# cs_speaker=int(input())
-# print("Please select the number of the speaker you would like to use for the Panel:")
-# pnl_speaker=int(input())
+mic_list = sr.Microphone.list_microphone_names()
+print('\n'.join('{}: {}'.format(*k) for k in enumerate(mic_list)))
+print("Please select the number of the microphone you would like to use for the CS:")
+cs_mic=int(input())
+print("Please select the number of the microphone you would like to use for the Panel:")
+pnl_mic=int(input())
+print("Please select the number of the speaker you would like to use for the CS:")
+cs_speaker=int(input())
+print("Please select the number of the speaker you would like to use for the Panel:")
+pnl_speaker=int(input())
 
 micToText(2,True)
 

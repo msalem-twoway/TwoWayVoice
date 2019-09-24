@@ -16,9 +16,10 @@ with mic as source:
 	timeout=True;
 if not timeout:
 	try:
-		# print("Processing...")
-		google_transcribed = r.recognize_google(audio) #call google speech services to process what was heard on the mic
-		print(google_transcribed) #print what was heard by google
+	    # print("Processing...")
+	    #google_transcribed = r.recognize_google(audio) #call google speech services to process what was heard on the mic
+	    recog = r.recognize_wit(audio, key = "6Y4KLO4YTWDQSYQXGONPHAVB3IRSWFRN")
+	    print(recog) #print what was heard by google
 	except sr.UnknownValueError:
 	    print("could not understand audio")
 	except sr.RequestError as e:

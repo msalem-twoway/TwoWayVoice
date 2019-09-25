@@ -4,7 +4,7 @@ import sys
 r = sr.Recognizer()
 r.pause_threshold=0.5 #Stop listening after 0.5 seconds of no activity
 timeout=False
-mic = sr.Microphone(device_index=int(sys.argv[1])) #set microphonse to the correct index
+mic = sr.Microphone(device_index=int(sys.argv[1]),sample_rate=44100,chunk_size=4096) #set microphonse to the correct index
 
 with mic as source:
     #print("adjusting levels...")
@@ -17,9 +17,11 @@ with mic as source:
 if not timeout:
 	try:
 	    # print("Processing...")
-	    #google_transcribed = r.recognize_google(audio) #call google speech services to process what was heard on the mic
-	    recog = r.recognize_wit(audio, key = "6Y4KLO4YTWDQSYQXGONPHAVB3IRSWFRN")
-	    print(recog) #print what was heard by google
+	    google_transcribed = r.recognize_google(audio) #call google speech services to process what was heard on the mic
+	    #recog = r.recognize_wit(audio, key = "6Y4KLO4YTWDQSYQXGONPHAVB3IRSWFRN")
+	    print(google_transcribed) #print what was heard by google
+	    # with open("transcribed_audio.wav","wb") as f:
+		# f.write(audio.get_wav_data())
 	except sr.UnknownValueError:
 	    print("could not understand audio")
 	except sr.RequestError as e:
